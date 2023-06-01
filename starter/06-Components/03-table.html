@@ -21,12 +21,33 @@
             font-family: "Inter", sans-serif;
             color: #343a40;
             line-height: 1;
+
+            display: flex;
+            justify-content: center;
         }
 
-        table{
+        table {
             width: 800px;
-            background-color: red;
+            margin-top: 100px;
+            /*border: 1px solid grey;*/
+            border-collapse: collapse;
         }
+
+        th, td {
+            /*border: solid gray 1px;*/
+            padding: 16px 24px;
+            text-align: left;
+        }
+
+        thead th {
+            background-color: seagreen;
+            color: white;
+            width: 25%;
+        }
+
+       tbody tr:nth-child(even) {
+           background-color: lightgrey;
+       }
 
     </style>
 </head>
