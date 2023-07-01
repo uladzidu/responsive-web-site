@@ -24,7 +24,9 @@ Paragraph default: 1.6
 --- 02 COLORS
 
 - Primary: #e67e22
-- Tints: #fdf2e9
+- Tints:
+    #fdf2e9
+    #fae5d3
 - Shadows: #cf711f
 - Accents:
 - Greys:
@@ -162,4 +164,8 @@ body {
 
 .margin-right-sm {
     margin-right: 1.6rem !important;
+}
+
+strong {
+    font-weight: 500;
 }
